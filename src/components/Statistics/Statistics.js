@@ -8,25 +8,13 @@ function Statistics({
     total,
     positivePercentage
 }) {
-    return ( <
-        >
-        <
-        p className = "Statistics-text" > Good: {
-            good
-        } < /p> <
-        p className = "Statistics-text" > Neutral: {
-            neutral
-        } < /p> <
-        p className = "Statistics-text" > Bad: {
-            bad
-        } < /p> <
-        p className = "Statistics-text" > Total: {
-            total
-        } < /p> <
-        p className = "Statistics-text" > Positive feedback: {
-            positivePercentage
-        } < /p> < /
-        >
+    return ( <>
+        <p className = "Statistics-text" > Good: {good} </p> 
+        <p className = "Statistics-text" > Neutral: {neutral} </p> 
+        <p className = "Statistics-text" > Bad: {bad} </p> 
+        <p className = "Statistics-text" > Total: {total} </p> 
+        <p className = "Statistics-text" > Positive feedback: {positivePercentage} </p> 
+            </>
     );
 }
 
