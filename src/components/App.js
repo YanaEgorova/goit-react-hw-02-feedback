@@ -42,10 +42,9 @@ export default class App extends Component {
                     <FeedbackOptions
                         options={OPTIONS}
                         onLeaveFeedback={this.handleLeaveFeedback}
-                    />{' '}
-                </Section>{' '}
+                    />
+                </Section>
                 <Section title="Statistics">
-                    {' '}
                     {countTotal > 0 && (
                         <Statistics
                             good={this.state.good}
@@ -58,7 +57,7 @@ export default class App extends Component {
                     {countTotal <= 0 && (
                         <Notification message="No feedback given" />
                     )}
-                </Section>{' '}
+                </Section>
             </>
         );
     }
